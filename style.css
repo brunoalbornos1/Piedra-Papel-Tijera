@@ -1,0 +1,66 @@
+:root{
+    --violet:#41033c;
+    --beige:#efbe6e;
+    --secundario:#e5e6da;
+}
+*{
+    font-family: 'Heebo', sans-serif;
+}
+body{
+    margin: 0;
+    background-color: var(--violet);
+}
+
+.menu{
+    display: flex;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: var(--beige);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: var(--violet);
+    
+    h1,h4{
+        margin: 1rem;
+    }
+}
+
+.juego{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:var(--beige);
+
+    #jugador,
+    #maquina,
+    .contador{
+
+    }
+
+}
+
+#jugador,#maquina{
+    border: var(--secundario) solid 2px;
+    border-radius: 1rem;
+}
+
+.contador{
+    background-color: var(--secundario);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: var(--violet );
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+
+.armas{
+    
+    button{
+        border: #efbe6e solid 3px;
+    }
+}
